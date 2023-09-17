@@ -12,9 +12,12 @@ One Away:
     Assume: no change is also o.k.
     
     Note: don't use "exception driven development like in the previous q's"
+    
+    Note: this is wrong, as it does not take into account the order of the chars
 
 """
 
+# (this is wrong ... need to rethink)
 def one_away(string1, string2):
     
     # strip the ends
