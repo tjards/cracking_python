@@ -21,11 +21,12 @@ def isunique(s):
     
     # remove white space, tabs... etc
     s = ''.join(s.split())
-    print('Testing this string: ',s)
+    print('Testing this string for all-unique chars: ',s)
         
     # since acsii has 128 characters, if we have more, we know non-uniqueness
     if len(s) > 128:
         return False
+    
     # now we will search through
     else:
         #create an empty set
@@ -41,9 +42,13 @@ def isunique(s):
     return True
   
                 
-# run it
-# -----   
-string_input = str("This is the non-unique string") 
-print(isunique(string_input))
-string_input = str("  a b c d e f 1! 3 4 5 u q   ") 
-print(isunique(string_input))
+# terminal call
+# -------------
+
+if __name__ == "__main__":
+    
+    string_input = input("Enter a string (acsii type): ")
+    print(isunique(string_input))
+    
+    
+
