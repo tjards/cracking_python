@@ -5,9 +5,10 @@ Created on Sun Sep 17 10:31:15 2023
 
 @author: tjards
 
-Implement an algo to determine if a string has all unique characters
+Is Unique:
 
-What if you cannot use additional data structures?
+    Implement an algo to determine if a string has all unique characters
+    What if you cannot use additional data structures?
 
 """
 
@@ -44,7 +45,6 @@ def isunique(s):
                 
 # terminal call
 # -------------
-
 if __name__ == "__main__":
     
     string_input = input("Enter a string (acsii type): ")
