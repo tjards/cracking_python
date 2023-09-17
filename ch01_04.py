@@ -47,7 +47,7 @@ def palindrome_permutation(string):
                 s_list.remove(str(i))
             # if you can't, that's our only permitted loner
             except:
-                # if we already have a flag
+                # if we already havetou a flag
                 if Flag == True:
                     # then it can't be palindrom
                     return False
